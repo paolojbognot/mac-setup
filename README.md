@@ -68,3 +68,19 @@ INSTALL NVM
 - [] vscode-icons
 - [] Prettier
 - [] ESLint
+
+
+
+
+### How to install MongoDB using Homebrew
+- Here is the link: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+- Steps to install in terminal (iTerm2):
+    - `brew tap mongodb/brew`
+    - `brew update`
+    - `brew install mongodb-community@7.0` - always double check if 7.0 is the latest stable version
+    - Now make sure to set the Mongod process to automatically run in the background using brew services
+
+### MongoDB Commands
+- `brew services start mongodb-community@7.0` - Automatically runs `mongod` in the background on computer startup
+- `brew services stop mongodb-community@7.0` - Manually terminate `mongod` from running in the background
+- `mongosh` - Start the MongoDB Shell
