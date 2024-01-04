@@ -85,6 +85,10 @@ INSTALL NVM
     - Set to `expand`
 - Render Whitespace
     - Set to `boundary`
+- Terminal > Integrated: Cursor Blinking
+    - Checked ✅
+- Terminal > Integrated: Cursor Style
+    - Set to `line`
 
 
 
