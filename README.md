@@ -63,12 +63,28 @@ INSTALL NVM
 - [] Night Owl
 
 
-### VSCode - Etensions
+### VSCode - Extensions
 - [] FontSize Shortcuts
 - [] vscode-icons
 - [] Prettier
 - [] ESLint
 
+### VSCode - Settings
+ - Notable settings:
+ ```json
+{
+  "editor.linkedEditing": true,
+  "editor.snippetSuggestions": "top",
+}
+ ```
+- editor.linkedEditing
+    - Automatically edit a closing tag when editing an opening tag
+- editor.snippetSuggestions
+    - Puts the most relevant auto complete options at the top
+- Cursor Blinking
+    - Set to `expand`
+- Render Whitespace
+    - Set to `boundary`
 
 
 
